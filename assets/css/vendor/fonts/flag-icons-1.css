@@ -1,0 +1,2185 @@
+.fib, .fi {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.fi {
+  position: relative;
+  display: inline-block;
+  width: 1.333333em;
+  line-height: 1em;
+}
+
+.fi:before {
+  content: " ";
+}
+
+.fi.fis {
+  width: 1em;
+}
+
+.fi-xx {
+  background-image: url(vendor/fonts/flags/4x3/xx.svg.svg.svg.svg.svg);
+}
+
+.fi-xx.fis {
+  background-image: url(vendor/fonts/flags/1x1/xx.svg.svg.svg.svg.svg);
+}
+
+.fi-ad {
+  background-image: url(vendor/fonts/flags/4x3/ad.svg.svg.svg.svg.svg);
+}
+
+.fi-ad.fis {
+  background-image: url(vendor/fonts/flags/1x1/ad.svg.svg.svg.svg.svg);
+}
+
+.fi-ae {
+  background-image: url(vendor/fonts/flags/4x3/ae.svg.svg.svg.svg.svg);
+}
+
+.fi-ae.fis {
+  background-image: url(vendor/fonts/flags/1x1/ae.svg.svg.svg.svg.svg);
+}
+
+.fi-af {
+  background-image: url(vendor/fonts/flags/4x3/af.svg.svg.svg.svg.svg);
+}
+
+.fi-af.fis {
+  background-image: url(vendor/fonts/flags/1x1/af.svg.svg.svg.svg.svg);
+}
+
+.fi-ag {
+  background-image: url(vendor/fonts/flags/4x3/ag.svg.svg.svg.svg.svg);
+}
+
+.fi-ag.fis {
+  background-image: url(vendor/fonts/flags/1x1/ag.svg.svg.svg.svg.svg);
+}
+
+.fi-ai {
+  background-image: url(vendor/fonts/flags/4x3/ai.svg.svg.svg.svg.svg);
+}
+
+.fi-ai.fis {
+  background-image: url(vendor/fonts/flags/1x1/ai.svg.svg.svg.svg.svg);
+}
+
+.fi-al {
+  background-image: url(vendor/fonts/flags/4x3/al.svg.svg.svg.svg.svg);
+}
+
+.fi-al.fis {
+  background-image: url(vendor/fonts/flags/1x1/al.svg.svg.svg.svg.svg);
+}
+
+.fi-am {
+  background-image: url(vendor/fonts/flags/4x3/am.svg.svg.svg.svg.svg);
+}
+
+.fi-am.fis {
+  background-image: url(vendor/fonts/flags/1x1/am.svg.svg.svg.svg.svg);
+}
+
+.fi-ao {
+  background-image: url(vendor/fonts/flags/4x3/ao.svg.svg.svg.svg.svg);
+}
+
+.fi-ao.fis {
+  background-image: url(vendor/fonts/flags/1x1/ao.svg.svg.svg.svg.svg);
+}
+
+.fi-aq {
+  background-image: url(vendor/fonts/flags/4x3/aq.svg.svg.svg.svg.svg);
+}
+
+.fi-aq.fis {
+  background-image: url(vendor/fonts/flags/1x1/aq.svg.svg.svg.svg.svg);
+}
+
+.fi-ar {
+  background-image: url(vendor/fonts/flags/4x3/ar.svg.svg.svg.svg.svg);
+}
+
+.fi-ar.fis {
+  background-image: url(vendor/fonts/flags/1x1/ar.svg.svg.svg.svg.svg);
+}
+
+.fi-as {
+  background-image: url(vendor/fonts/flags/4x3/as.svg.svg.svg.svg.svg);
+}
+
+.fi-as.fis {
+  background-image: url(vendor/fonts/flags/1x1/as.svg.svg.svg.svg.svg);
+}
+
+.fi-at {
+  background-image: url(vendor/fonts/flags/4x3/at.svg.svg.svg.svg.svg);
+}
+
+.fi-at.fis {
+  background-image: url(vendor/fonts/flags/1x1/at.svg.svg.svg.svg.svg);
+}
+
+.fi-au {
+  background-image: url(vendor/fonts/flags/4x3/au.svg.svg.svg.svg.svg);
+}
+
+.fi-au.fis {
+  background-image: url(vendor/fonts/flags/1x1/au.svg.svg.svg.svg.svg);
+}
+
+.fi-aw {
+  background-image: url(vendor/fonts/flags/4x3/aw.svg.svg.svg.svg.svg);
+}
+
+.fi-aw.fis {
+  background-image: url(vendor/fonts/flags/1x1/aw.svg.svg.svg.svg.svg);
+}
+
+.fi-ax {
+  background-image: url(vendor/fonts/flags/4x3/ax.svg.svg.svg.svg.svg);
+}
+
+.fi-ax.fis {
+  background-image: url(vendor/fonts/flags/1x1/ax.svg.svg.svg.svg.svg);
+}
+
+.fi-az {
+  background-image: url(vendor/fonts/flags/4x3/az.svg.svg.svg.svg.svg);
+}
+
+.fi-az.fis {
+  background-image: url(vendor/fonts/flags/1x1/az.svg.svg.svg.svg.svg);
+}
+
+.fi-ba {
+  background-image: url(vendor/fonts/flags/4x3/ba.svg.svg.svg.svg.svg);
+}
+
+.fi-ba.fis {
+  background-image: url(vendor/fonts/flags/1x1/ba.svg.svg.svg.svg.svg);
+}
+
+.fi-bb {
+  background-image: url(vendor/fonts/flags/4x3/bb.svg.svg.svg.svg.svg);
+}
+
+.fi-bb.fis {
+  background-image: url(vendor/fonts/flags/1x1/bb.svg.svg.svg.svg.svg);
+}
+
+.fi-bd {
+  background-image: url(vendor/fonts/flags/4x3/bd.svg.svg.svg.svg.svg);
+}
+
+.fi-bd.fis {
+  background-image: url(vendor/fonts/flags/1x1/bd.svg.svg.svg.svg.svg);
+}
+
+.fi-be {
+  background-image: url(vendor/fonts/flags/4x3/be.svg.svg.svg.svg.svg);
+}
+
+.fi-be.fis {
+  background-image: url(vendor/fonts/flags/1x1/be.svg.svg.svg.svg.svg);
+}
+
+.fi-bf {
+  background-image: url(vendor/fonts/flags/4x3/bf.svg.svg.svg.svg.svg);
+}
+
+.fi-bf.fis {
+  background-image: url(vendor/fonts/flags/1x1/bf.svg.svg.svg.svg.svg);
+}
+
+.fi-bg {
+  background-image: url(vendor/fonts/flags/4x3/bg.svg.svg.svg.svg.svg);
+}
+
+.fi-bg.fis {
+  background-image: url(vendor/fonts/flags/1x1/bg.svg.svg.svg.svg.svg);
+}
+
+.fi-bh {
+  background-image: url(vendor/fonts/flags/4x3/bh.svg.svg.svg.svg.svg);
+}
+
+.fi-bh.fis {
+  background-image: url(vendor/fonts/flags/1x1/bh.svg.svg.svg.svg.svg);
+}
+
+.fi-bi {
+  background-image: url(vendor/fonts/flags/4x3/bi.svg.svg.svg.svg.svg);
+}
+
+.fi-bi.fis {
+  background-image: url(vendor/fonts/flags/1x1/bi.svg.svg.svg.svg.svg);
+}
+
+.fi-bj {
+  background-image: url(vendor/fonts/flags/4x3/bj.svg.svg.svg.svg.svg);
+}
+
+.fi-bj.fis {
+  background-image: url(vendor/fonts/flags/1x1/bj.svg.svg.svg.svg.svg);
+}
+
+.fi-bl {
+  background-image: url(vendor/fonts/flags/4x3/bl.svg.svg.svg.svg.svg);
+}
+
+.fi-bl.fis {
+  background-image: url(vendor/fonts/flags/1x1/bl.svg.svg.svg.svg.svg);
+}
+
+.fi-bm {
+  background-image: url(vendor/fonts/flags/4x3/bm.svg.svg.svg.svg.svg);
+}
+
+.fi-bm.fis {
+  background-image: url(vendor/fonts/flags/1x1/bm.svg.svg.svg.svg.svg);
+}
+
+.fi-bn {
+  background-image: url(vendor/fonts/flags/4x3/bn.svg.svg.svg.svg.svg);
+}
+
+.fi-bn.fis {
+  background-image: url(vendor/fonts/flags/1x1/bn.svg.svg.svg.svg.svg);
+}
+
+.fi-bo {
+  background-image: url(vendor/fonts/flags/4x3/bo.svg.svg.svg.svg.svg);
+}
+
+.fi-bo.fis {
+  background-image: url(vendor/fonts/flags/1x1/bo.svg.svg.svg.svg.svg);
+}
+
+.fi-bq {
+  background-image: url(vendor/fonts/flags/4x3/bq.svg.svg.svg.svg.svg);
+}
+
+.fi-bq.fis {
+  background-image: url(vendor/fonts/flags/1x1/bq.svg.svg.svg.svg.svg);
+}
+
+.fi-br {
+  background-image: url(vendor/fonts/flags/4x3/br.svg.svg.svg.svg.svg);
+}
+
+.fi-br.fis {
+  background-image: url(vendor/fonts/flags/1x1/br.svg.svg.svg.svg.svg);
+}
+
+.fi-bs {
+  background-image: url(vendor/fonts/flags/4x3/bs.svg.svg.svg.svg.svg);
+}
+
+.fi-bs.fis {
+  background-image: url(vendor/fonts/flags/1x1/bs.svg.svg.svg.svg.svg);
+}
+
+.fi-bt {
+  background-image: url(vendor/fonts/flags/4x3/bt.svg.svg.svg.svg.svg);
+}
+
+.fi-bt.fis {
+  background-image: url(vendor/fonts/flags/1x1/bt.svg.svg.svg.svg.svg);
+}
+
+.fi-bv {
+  background-image: url(vendor/fonts/flags/4x3/bv.svg.svg.svg.svg.svg);
+}
+
+.fi-bv.fis {
+  background-image: url(vendor/fonts/flags/1x1/bv.svg.svg.svg.svg.svg);
+}
+
+.fi-bw {
+  background-image: url(vendor/fonts/flags/4x3/bw.svg.svg.svg.svg.svg);
+}
+
+.fi-bw.fis {
+  background-image: url(vendor/fonts/flags/1x1/bw.svg.svg.svg.svg.svg);
+}
+
+.fi-by {
+  background-image: url(vendor/fonts/flags/4x3/by.svg.svg.svg.svg.svg);
+}
+
+.fi-by.fis {
+  background-image: url(vendor/fonts/flags/1x1/by.svg.svg.svg.svg.svg);
+}
+
+.fi-bz {
+  background-image: url(vendor/fonts/flags/4x3/bz.svg.svg.svg.svg.svg);
+}
+
+.fi-bz.fis {
+  background-image: url(vendor/fonts/flags/1x1/bz.svg.svg.svg.svg.svg);
+}
+
+.fi-ca {
+  background-image: url(vendor/fonts/flags/4x3/ca.svg.svg.svg.svg.svg);
+}
+
+.fi-ca.fis {
+  background-image: url(vendor/fonts/flags/1x1/ca.svg.svg.svg.svg.svg);
+}
+
+.fi-cc {
+  background-image: url(vendor/fonts/flags/4x3/cc.svg.svg.svg.svg.svg);
+}
+
+.fi-cc.fis {
+  background-image: url(vendor/fonts/flags/1x1/cc.svg.svg.svg.svg.svg);
+}
+
+.fi-cd {
+  background-image: url(vendor/fonts/flags/4x3/cd.svg.svg.svg.svg.svg);
+}
+
+.fi-cd.fis {
+  background-image: url(vendor/fonts/flags/1x1/cd.svg.svg.svg.svg.svg);
+}
+
+.fi-cf {
+  background-image: url(vendor/fonts/flags/4x3/cf.svg.svg.svg.svg.svg);
+}
+
+.fi-cf.fis {
+  background-image: url(vendor/fonts/flags/1x1/cf.svg.svg.svg.svg.svg);
+}
+
+.fi-cg {
+  background-image: url(vendor/fonts/flags/4x3/cg.svg.svg.svg.svg.svg);
+}
+
+.fi-cg.fis {
+  background-image: url(vendor/fonts/flags/1x1/cg.svg.svg.svg.svg.svg);
+}
+
+.fi-ch {
+  background-image: url(vendor/fonts/flags/4x3/ch.svg.svg.svg.svg.svg);
+}
+
+.fi-ch.fis {
+  background-image: url(vendor/fonts/flags/1x1/ch.svg.svg.svg.svg.svg);
+}
+
+.fi-ci {
+  background-image: url(vendor/fonts/flags/4x3/ci.svg.svg.svg.svg.svg);
+}
+
+.fi-ci.fis {
+  background-image: url(vendor/fonts/flags/1x1/ci.svg.svg.svg.svg.svg);
+}
+
+.fi-ck {
+  background-image: url(vendor/fonts/flags/4x3/ck.svg.svg.svg.svg.svg);
+}
+
+.fi-ck.fis {
+  background-image: url(vendor/fonts/flags/1x1/ck.svg.svg.svg.svg.svg);
+}
+
+.fi-cl {
+  background-image: url(vendor/fonts/flags/4x3/cl.svg.svg.svg.svg.svg);
+}
+
+.fi-cl.fis {
+  background-image: url(vendor/fonts/flags/1x1/cl.svg.svg.svg.svg.svg);
+}
+
+.fi-cm {
+  background-image: url(vendor/fonts/flags/4x3/cm.svg.svg.svg.svg.svg);
+}
+
+.fi-cm.fis {
+  background-image: url(vendor/fonts/flags/1x1/cm.svg.svg.svg.svg.svg);
+}
+
+.fi-cn {
+  background-image: url(vendor/fonts/flags/4x3/cn.svg.svg.svg.svg.svg);
+}
+
+.fi-cn.fis {
+  background-image: url(vendor/fonts/flags/1x1/cn.svg.svg.svg.svg.svg);
+}
+
+.fi-co {
+  background-image: url(vendor/fonts/flags/4x3/co.svg.svg.svg.svg.svg);
+}
+
+.fi-co.fis {
+  background-image: url(vendor/fonts/flags/1x1/co.svg.svg.svg.svg.svg);
+}
+
+.fi-cr {
+  background-image: url(vendor/fonts/flags/4x3/cr.svg.svg.svg.svg.svg);
+}
+
+.fi-cr.fis {
+  background-image: url(vendor/fonts/flags/1x1/cr.svg.svg.svg.svg.svg);
+}
+
+.fi-cu {
+  background-image: url(vendor/fonts/flags/4x3/cu.svg.svg.svg.svg.svg);
+}
+
+.fi-cu.fis {
+  background-image: url(vendor/fonts/flags/1x1/cu.svg.svg.svg.svg.svg);
+}
+
+.fi-cv {
+  background-image: url(vendor/fonts/flags/4x3/cv.svg.svg.svg.svg.svg);
+}
+
+.fi-cv.fis {
+  background-image: url(vendor/fonts/flags/1x1/cv.svg.svg.svg.svg.svg);
+}
+
+.fi-cw {
+  background-image: url(vendor/fonts/flags/4x3/cw.svg.svg.svg.svg.svg);
+}
+
+.fi-cw.fis {
+  background-image: url(vendor/fonts/flags/1x1/cw.svg.svg.svg.svg.svg);
+}
+
+.fi-cx {
+  background-image: url(vendor/fonts/flags/4x3/cx.svg.svg.svg.svg.svg);
+}
+
+.fi-cx.fis {
+  background-image: url(vendor/fonts/flags/1x1/cx.svg.svg.svg.svg.svg);
+}
+
+.fi-cy {
+  background-image: url(vendor/fonts/flags/4x3/cy.svg.svg.svg.svg.svg);
+}
+
+.fi-cy.fis {
+  background-image: url(vendor/fonts/flags/1x1/cy.svg.svg.svg.svg.svg);
+}
+
+.fi-cz {
+  background-image: url(vendor/fonts/flags/4x3/cz.svg.svg.svg.svg.svg);
+}
+
+.fi-cz.fis {
+  background-image: url(vendor/fonts/flags/1x1/cz.svg.svg.svg.svg.svg);
+}
+
+.fi-de {
+  background-image: url(vendor/fonts/flags/4x3/de.svg.svg.svg.svg.svg);
+}
+
+.fi-de.fis {
+  background-image: url(vendor/fonts/flags/1x1/de.svg.svg.svg.svg.svg);
+}
+
+.fi-dj {
+  background-image: url(vendor/fonts/flags/4x3/dj.svg.svg.svg.svg.svg);
+}
+
+.fi-dj.fis {
+  background-image: url(vendor/fonts/flags/1x1/dj.svg.svg.svg.svg.svg);
+}
+
+.fi-dk {
+  background-image: url(vendor/fonts/flags/4x3/dk.svg.svg.svg.svg.svg);
+}
+
+.fi-dk.fis {
+  background-image: url(vendor/fonts/flags/1x1/dk.svg.svg.svg.svg.svg);
+}
+
+.fi-dm {
+  background-image: url(vendor/fonts/flags/4x3/dm.svg.svg.svg.svg.svg);
+}
+
+.fi-dm.fis {
+  background-image: url(vendor/fonts/flags/1x1/dm.svg.svg.svg.svg.svg);
+}
+
+.fi-do {
+  background-image: url(vendor/fonts/flags/4x3/do.svg.svg.svg.svg.svg);
+}
+
+.fi-do.fis {
+  background-image: url(vendor/fonts/flags/1x1/do.svg.svg.svg.svg.svg);
+}
+
+.fi-dz {
+  background-image: url(vendor/fonts/flags/4x3/dz.svg.svg.svg.svg.svg);
+}
+
+.fi-dz.fis {
+  background-image: url(vendor/fonts/flags/1x1/dz.svg.svg.svg.svg.svg);
+}
+
+.fi-ec {
+  background-image: url(vendor/fonts/flags/4x3/ec.svg.svg.svg.svg.svg);
+}
+
+.fi-ec.fis {
+  background-image: url(vendor/fonts/flags/1x1/ec.svg.svg.svg.svg.svg);
+}
+
+.fi-ee {
+  background-image: url(vendor/fonts/flags/4x3/ee.svg.svg.svg.svg.svg);
+}
+
+.fi-ee.fis {
+  background-image: url(vendor/fonts/flags/1x1/ee.svg.svg.svg.svg.svg);
+}
+
+.fi-eg {
+  background-image: url(vendor/fonts/flags/4x3/eg.svg.svg.svg.svg.svg);
+}
+
+.fi-eg.fis {
+  background-image: url(vendor/fonts/flags/1x1/eg.svg.svg.svg.svg.svg);
+}
+
+.fi-eh {
+  background-image: url(vendor/fonts/flags/4x3/eh.svg.svg.svg.svg.svg);
+}
+
+.fi-eh.fis {
+  background-image: url(vendor/fonts/flags/1x1/eh.svg.svg.svg.svg.svg);
+}
+
+.fi-er {
+  background-image: url(vendor/fonts/flags/4x3/er.svg.svg.svg.svg.svg);
+}
+
+.fi-er.fis {
+  background-image: url(vendor/fonts/flags/1x1/er.svg.svg.svg.svg.svg);
+}
+
+.fi-es {
+  background-image: url(vendor/fonts/flags/4x3/es.svg.svg.svg.svg.svg);
+}
+
+.fi-es.fis {
+  background-image: url(vendor/fonts/flags/1x1/es.svg.svg.svg.svg.svg);
+}
+
+.fi-et {
+  background-image: url(vendor/fonts/flags/4x3/et.svg.svg.svg.svg.svg);
+}
+
+.fi-et.fis {
+  background-image: url(vendor/fonts/flags/1x1/et.svg.svg.svg.svg.svg);
+}
+
+.fi-fi {
+  background-image: url(vendor/fonts/flags/4x3/fi.svg.svg.svg.svg.svg);
+}
+
+.fi-fi.fis {
+  background-image: url(vendor/fonts/flags/1x1/fi.svg.svg.svg.svg.svg);
+}
+
+.fi-fj {
+  background-image: url(vendor/fonts/flags/4x3/fj.svg.svg.svg.svg.svg);
+}
+
+.fi-fj.fis {
+  background-image: url(vendor/fonts/flags/1x1/fj.svg.svg.svg.svg.svg);
+}
+
+.fi-fk {
+  background-image: url(vendor/fonts/flags/4x3/fk.svg.svg.svg.svg.svg);
+}
+
+.fi-fk.fis {
+  background-image: url(vendor/fonts/flags/1x1/fk.svg.svg.svg.svg.svg);
+}
+
+.fi-fm {
+  background-image: url(vendor/fonts/flags/4x3/fm.svg.svg.svg.svg.svg);
+}
+
+.fi-fm.fis {
+  background-image: url(vendor/fonts/flags/1x1/fm.svg.svg.svg.svg.svg);
+}
+
+.fi-fo {
+  background-image: url(vendor/fonts/flags/4x3/fo.svg.svg.svg.svg.svg);
+}
+
+.fi-fo.fis {
+  background-image: url(vendor/fonts/flags/1x1/fo.svg.svg.svg.svg.svg);
+}
+
+.fi-fr {
+  background-image: url(vendor/fonts/flags/4x3/fr.svg.svg.svg.svg.svg);
+}
+
+.fi-fr.fis {
+  background-image: url(vendor/fonts/flags/1x1/fr.svg.svg.svg.svg.svg);
+}
+
+.fi-ga {
+  background-image: url(vendor/fonts/flags/4x3/ga.svg.svg.svg.svg.svg);
+}
+
+.fi-ga.fis {
+  background-image: url(vendor/fonts/flags/1x1/ga.svg.svg.svg.svg.svg);
+}
+
+.fi-gb {
+  background-image: url(vendor/fonts/flags/4x3/gb.svg.svg.svg.svg.svg);
+}
+
+.fi-gb.fis {
+  background-image: url(vendor/fonts/flags/1x1/gb.svg.svg.svg.svg.svg);
+}
+
+.fi-gd {
+  background-image: url(vendor/fonts/flags/4x3/gd.svg.svg.svg.svg.svg);
+}
+
+.fi-gd.fis {
+  background-image: url(vendor/fonts/flags/1x1/gd.svg.svg.svg.svg.svg);
+}
+
+.fi-ge {
+  background-image: url(vendor/fonts/flags/4x3/ge.svg.svg.svg.svg.svg);
+}
+
+.fi-ge.fis {
+  background-image: url(vendor/fonts/flags/1x1/ge.svg.svg.svg.svg.svg);
+}
+
+.fi-gf {
+  background-image: url(vendor/fonts/flags/4x3/gf.svg.svg.svg.svg.svg);
+}
+
+.fi-gf.fis {
+  background-image: url(vendor/fonts/flags/1x1/gf.svg.svg.svg.svg.svg);
+}
+
+.fi-gg {
+  background-image: url(vendor/fonts/flags/4x3/gg.svg.svg.svg.svg.svg);
+}
+
+.fi-gg.fis {
+  background-image: url(vendor/fonts/flags/1x1/gg.svg.svg.svg.svg.svg);
+}
+
+.fi-gh {
+  background-image: url(vendor/fonts/flags/4x3/gh.svg.svg.svg.svg.svg);
+}
+
+.fi-gh.fis {
+  background-image: url(vendor/fonts/flags/1x1/gh.svg.svg.svg.svg.svg);
+}
+
+.fi-gi {
+  background-image: url(vendor/fonts/flags/4x3/gi.svg.svg.svg.svg.svg);
+}
+
+.fi-gi.fis {
+  background-image: url(vendor/fonts/flags/1x1/gi.svg.svg.svg.svg.svg);
+}
+
+.fi-gl {
+  background-image: url(vendor/fonts/flags/4x3/gl.svg.svg.svg.svg.svg);
+}
+
+.fi-gl.fis {
+  background-image: url(vendor/fonts/flags/1x1/gl.svg.svg.svg.svg.svg);
+}
+
+.fi-gm {
+  background-image: url(vendor/fonts/flags/4x3/gm.svg.svg.svg.svg.svg);
+}
+
+.fi-gm.fis {
+  background-image: url(vendor/fonts/flags/1x1/gm.svg.svg.svg.svg.svg);
+}
+
+.fi-gn {
+  background-image: url(vendor/fonts/flags/4x3/gn.svg.svg.svg.svg.svg);
+}
+
+.fi-gn.fis {
+  background-image: url(vendor/fonts/flags/1x1/gn.svg.svg.svg.svg.svg);
+}
+
+.fi-gp {
+  background-image: url(vendor/fonts/flags/4x3/gp.svg.svg.svg.svg.svg);
+}
+
+.fi-gp.fis {
+  background-image: url(vendor/fonts/flags/1x1/gp.svg.svg.svg.svg.svg);
+}
+
+.fi-gq {
+  background-image: url(vendor/fonts/flags/4x3/gq.svg.svg.svg.svg.svg);
+}
+
+.fi-gq.fis {
+  background-image: url(vendor/fonts/flags/1x1/gq.svg.svg.svg.svg.svg);
+}
+
+.fi-gr {
+  background-image: url(vendor/fonts/flags/4x3/gr.svg.svg.svg.svg.svg);
+}
+
+.fi-gr.fis {
+  background-image: url(vendor/fonts/flags/1x1/gr.svg.svg.svg.svg.svg);
+}
+
+.fi-gs {
+  background-image: url(vendor/fonts/flags/4x3/gs.svg.svg.svg.svg.svg);
+}
+
+.fi-gs.fis {
+  background-image: url(vendor/fonts/flags/1x1/gs.svg.svg.svg.svg.svg);
+}
+
+.fi-gt {
+  background-image: url(vendor/fonts/flags/4x3/gt.svg.svg.svg.svg.svg);
+}
+
+.fi-gt.fis {
+  background-image: url(vendor/fonts/flags/1x1/gt.svg.svg.svg.svg.svg);
+}
+
+.fi-gu {
+  background-image: url(vendor/fonts/flags/4x3/gu.svg.svg.svg.svg.svg);
+}
+
+.fi-gu.fis {
+  background-image: url(vendor/fonts/flags/1x1/gu.svg.svg.svg.svg.svg);
+}
+
+.fi-gw {
+  background-image: url(vendor/fonts/flags/4x3/gw.svg.svg.svg.svg.svg);
+}
+
+.fi-gw.fis {
+  background-image: url(vendor/fonts/flags/1x1/gw.svg.svg.svg.svg.svg);
+}
+
+.fi-gy {
+  background-image: url(vendor/fonts/flags/4x3/gy.svg.svg.svg.svg.svg);
+}
+
+.fi-gy.fis {
+  background-image: url(vendor/fonts/flags/1x1/gy.svg.svg.svg.svg.svg);
+}
+
+.fi-hk {
+  background-image: url(vendor/fonts/flags/4x3/hk.svg.svg.svg.svg.svg);
+}
+
+.fi-hk.fis {
+  background-image: url(vendor/fonts/flags/1x1/hk.svg.svg.svg.svg.svg);
+}
+
+.fi-hm {
+  background-image: url(vendor/fonts/flags/4x3/hm.svg.svg.svg.svg.svg);
+}
+
+.fi-hm.fis {
+  background-image: url(vendor/fonts/flags/1x1/hm.svg.svg.svg.svg.svg);
+}
+
+.fi-hn {
+  background-image: url(vendor/fonts/flags/4x3/hn.svg.svg.svg.svg.svg);
+}
+
+.fi-hn.fis {
+  background-image: url(vendor/fonts/flags/1x1/hn.svg.svg.svg.svg.svg);
+}
+
+.fi-hr {
+  background-image: url(vendor/fonts/flags/4x3/hr.svg.svg.svg.svg.svg);
+}
+
+.fi-hr.fis {
+  background-image: url(vendor/fonts/flags/1x1/hr.svg.svg.svg.svg.svg);
+}
+
+.fi-ht {
+  background-image: url(vendor/fonts/flags/4x3/ht.svg.svg.svg.svg.svg);
+}
+
+.fi-ht.fis {
+  background-image: url(vendor/fonts/flags/1x1/ht.svg.svg.svg.svg.svg);
+}
+
+.fi-hu {
+  background-image: url(vendor/fonts/flags/4x3/hu.svg.svg.svg.svg.svg);
+}
+
+.fi-hu.fis {
+  background-image: url(vendor/fonts/flags/1x1/hu.svg.svg.svg.svg.svg);
+}
+
+.fi-id {
+  background-image: url(vendor/fonts/flags/4x3/id.svg.svg.svg.svg.svg);
+}
+
+.fi-id.fis {
+  background-image: url(vendor/fonts/flags/1x1/id.svg.svg.svg.svg.svg);
+}
+
+.fi-ie {
+  background-image: url(vendor/fonts/flags/4x3/ie.svg.svg.svg.svg.svg);
+}
+
+.fi-ie.fis {
+  background-image: url(vendor/fonts/flags/1x1/ie.svg.svg.svg.svg.svg);
+}
+
+.fi-il {
+  background-image: url(vendor/fonts/flags/4x3/il.svg.svg.svg.svg.svg);
+}
+
+.fi-il.fis {
+  background-image: url(vendor/fonts/flags/1x1/il.svg.svg.svg.svg.svg);
+}
+
+.fi-im {
+  background-image: url(vendor/fonts/flags/4x3/im.svg.svg.svg.svg.svg);
+}
+
+.fi-im.fis {
+  background-image: url(vendor/fonts/flags/1x1/im.svg.svg.svg.svg.svg);
+}
+
+.fi-in {
+  background-image: url(vendor/fonts/flags/4x3/in.svg.svg.svg.svg.svg);
+}
+
+.fi-in.fis {
+  background-image: url(vendor/fonts/flags/1x1/in.svg.svg.svg.svg.svg);
+}
+
+.fi-io {
+  background-image: url(vendor/fonts/flags/4x3/io.svg.svg.svg.svg.svg);
+}
+
+.fi-io.fis {
+  background-image: url(vendor/fonts/flags/1x1/io.svg.svg.svg.svg.svg);
+}
+
+.fi-iq {
+  background-image: url(vendor/fonts/flags/4x3/iq.svg.svg.svg.svg.svg);
+}
+
+.fi-iq.fis {
+  background-image: url(vendor/fonts/flags/1x1/iq.svg.svg.svg.svg.svg);
+}
+
+.fi-ir {
+  background-image: url(vendor/fonts/flags/4x3/ir.svg.svg.svg.svg.svg);
+}
+
+.fi-ir.fis {
+  background-image: url(vendor/fonts/flags/1x1/ir.svg.svg.svg.svg.svg);
+}
+
+.fi-is {
+  background-image: url(vendor/fonts/flags/4x3/is.svg.svg.svg.svg.svg);
+}
+
+.fi-is.fis {
+  background-image: url(vendor/fonts/flags/1x1/is.svg.svg.svg.svg.svg);
+}
+
+.fi-it {
+  background-image: url(vendor/fonts/flags/4x3/it.svg.svg.svg.svg.svg);
+}
+
+.fi-it.fis {
+  background-image: url(vendor/fonts/flags/1x1/it.svg.svg.svg.svg.svg);
+}
+
+.fi-je {
+  background-image: url(vendor/fonts/flags/4x3/je.svg.svg.svg.svg.svg);
+}
+
+.fi-je.fis {
+  background-image: url(vendor/fonts/flags/1x1/je.svg.svg.svg.svg.svg);
+}
+
+.fi-jm {
+  background-image: url(vendor/fonts/flags/4x3/jm.svg.svg.svg.svg.svg);
+}
+
+.fi-jm.fis {
+  background-image: url(vendor/fonts/flags/1x1/jm.svg.svg.svg.svg.svg);
+}
+
+.fi-jo {
+  background-image: url(vendor/fonts/flags/4x3/jo.svg.svg.svg.svg.svg);
+}
+
+.fi-jo.fis {
+  background-image: url(vendor/fonts/flags/1x1/jo.svg.svg.svg.svg.svg);
+}
+
+.fi-jp {
+  background-image: url(vendor/fonts/flags/4x3/jp.svg.svg.svg.svg.svg);
+}
+
+.fi-jp.fis {
+  background-image: url(vendor/fonts/flags/1x1/jp.svg.svg.svg.svg.svg);
+}
+
+.fi-ke {
+  background-image: url(vendor/fonts/flags/4x3/ke.svg.svg.svg.svg.svg);
+}
+
+.fi-ke.fis {
+  background-image: url(vendor/fonts/flags/1x1/ke.svg.svg.svg.svg.svg);
+}
+
+.fi-kg {
+  background-image: url(vendor/fonts/flags/4x3/kg.svg.svg.svg.svg.svg);
+}
+
+.fi-kg.fis {
+  background-image: url(vendor/fonts/flags/1x1/kg.svg.svg.svg.svg.svg);
+}
+
+.fi-kh {
+  background-image: url(vendor/fonts/flags/4x3/kh.svg.svg.svg.svg.svg);
+}
+
+.fi-kh.fis {
+  background-image: url(vendor/fonts/flags/1x1/kh.svg.svg.svg.svg.svg);
+}
+
+.fi-ki {
+  background-image: url(vendor/fonts/flags/4x3/ki.svg.svg.svg.svg.svg);
+}
+
+.fi-ki.fis {
+  background-image: url(vendor/fonts/flags/1x1/ki.svg.svg.svg.svg.svg);
+}
+
+.fi-km {
+  background-image: url(vendor/fonts/flags/4x3/km.svg.svg.svg.svg.svg);
+}
+
+.fi-km.fis {
+  background-image: url(vendor/fonts/flags/1x1/km.svg.svg.svg.svg.svg);
+}
+
+.fi-kn {
+  background-image: url(vendor/fonts/flags/4x3/kn.svg.svg.svg.svg.svg);
+}
+
+.fi-kn.fis {
+  background-image: url(vendor/fonts/flags/1x1/kn.svg.svg.svg.svg.svg);
+}
+
+.fi-kp {
+  background-image: url(vendor/fonts/flags/4x3/kp.svg.svg.svg.svg.svg);
+}
+
+.fi-kp.fis {
+  background-image: url(vendor/fonts/flags/1x1/kp.svg.svg.svg.svg.svg);
+}
+
+.fi-kr {
+  background-image: url(vendor/fonts/flags/4x3/kr.svg.svg.svg.svg.svg);
+}
+
+.fi-kr.fis {
+  background-image: url(vendor/fonts/flags/1x1/kr.svg.svg.svg.svg.svg);
+}
+
+.fi-kw {
+  background-image: url(vendor/fonts/flags/4x3/kw.svg.svg.svg.svg.svg);
+}
+
+.fi-kw.fis {
+  background-image: url(vendor/fonts/flags/1x1/kw.svg.svg.svg.svg.svg);
+}
+
+.fi-ky {
+  background-image: url(vendor/fonts/flags/4x3/ky.svg.svg.svg.svg.svg);
+}
+
+.fi-ky.fis {
+  background-image: url(vendor/fonts/flags/1x1/ky.svg.svg.svg.svg.svg);
+}
+
+.fi-kz {
+  background-image: url(vendor/fonts/flags/4x3/kz.svg.svg.svg.svg.svg);
+}
+
+.fi-kz.fis {
+  background-image: url(vendor/fonts/flags/1x1/kz.svg.svg.svg.svg.svg);
+}
+
+.fi-la {
+  background-image: url(vendor/fonts/flags/4x3/la.svg.svg.svg.svg.svg);
+}
+
+.fi-la.fis {
+  background-image: url(vendor/fonts/flags/1x1/la.svg.svg.svg.svg.svg);
+}
+
+.fi-lb {
+  background-image: url(vendor/fonts/flags/4x3/lb.svg.svg.svg.svg.svg);
+}
+
+.fi-lb.fis {
+  background-image: url(vendor/fonts/flags/1x1/lb.svg.svg.svg.svg.svg);
+}
+
+.fi-lc {
+  background-image: url(vendor/fonts/flags/4x3/lc.svg.svg.svg.svg.svg);
+}
+
+.fi-lc.fis {
+  background-image: url(vendor/fonts/flags/1x1/lc.svg.svg.svg.svg.svg);
+}
+
+.fi-li {
+  background-image: url(vendor/fonts/flags/4x3/li.svg.svg.svg.svg.svg);
+}
+
+.fi-li.fis {
+  background-image: url(vendor/fonts/flags/1x1/li.svg.svg.svg.svg.svg);
+}
+
+.fi-lk {
+  background-image: url(vendor/fonts/flags/4x3/lk.svg.svg.svg.svg.svg);
+}
+
+.fi-lk.fis {
+  background-image: url(vendor/fonts/flags/1x1/lk.svg.svg.svg.svg.svg);
+}
+
+.fi-lr {
+  background-image: url(vendor/fonts/flags/4x3/lr.svg.svg.svg.svg.svg);
+}
+
+.fi-lr.fis {
+  background-image: url(vendor/fonts/flags/1x1/lr.svg.svg.svg.svg.svg);
+}
+
+.fi-ls {
+  background-image: url(vendor/fonts/flags/4x3/ls.svg.svg.svg.svg.svg);
+}
+
+.fi-ls.fis {
+  background-image: url(vendor/fonts/flags/1x1/ls.svg.svg.svg.svg.svg);
+}
+
+.fi-lt {
+  background-image: url(vendor/fonts/flags/4x3/lt.svg.svg.svg.svg.svg);
+}
+
+.fi-lt.fis {
+  background-image: url(vendor/fonts/flags/1x1/lt.svg.svg.svg.svg.svg);
+}
+
+.fi-lu {
+  background-image: url(vendor/fonts/flags/4x3/lu.svg.svg.svg.svg.svg);
+}
+
+.fi-lu.fis {
+  background-image: url(vendor/fonts/flags/1x1/lu.svg.svg.svg.svg.svg);
+}
+
+.fi-lv {
+  background-image: url(vendor/fonts/flags/4x3/lv.svg.svg.svg.svg.svg);
+}
+
+.fi-lv.fis {
+  background-image: url(vendor/fonts/flags/1x1/lv.svg.svg.svg.svg.svg);
+}
+
+.fi-ly {
+  background-image: url(vendor/fonts/flags/4x3/ly.svg.svg.svg.svg.svg);
+}
+
+.fi-ly.fis {
+  background-image: url(vendor/fonts/flags/1x1/ly.svg.svg.svg.svg.svg);
+}
+
+.fi-ma {
+  background-image: url(vendor/fonts/flags/4x3/ma.svg.svg.svg.svg.svg);
+}
+
+.fi-ma.fis {
+  background-image: url(vendor/fonts/flags/1x1/ma.svg.svg.svg.svg.svg);
+}
+
+.fi-mc {
+  background-image: url(vendor/fonts/flags/4x3/mc.svg.svg.svg.svg.svg);
+}
+
+.fi-mc.fis {
+  background-image: url(vendor/fonts/flags/1x1/mc.svg.svg.svg.svg.svg);
+}
+
+.fi-md {
+  background-image: url(vendor/fonts/flags/4x3/md.svg.svg.svg.svg.svg);
+}
+
+.fi-md.fis {
+  background-image: url(vendor/fonts/flags/1x1/md.svg.svg.svg.svg.svg);
+}
+
+.fi-me {
+  background-image: url(vendor/fonts/flags/4x3/me.svg.svg.svg.svg.svg);
+}
+
+.fi-me.fis {
+  background-image: url(vendor/fonts/flags/1x1/me.svg.svg.svg.svg.svg);
+}
+
+.fi-mf {
+  background-image: url(vendor/fonts/flags/4x3/mf.svg.svg.svg.svg.svg);
+}
+
+.fi-mf.fis {
+  background-image: url(vendor/fonts/flags/1x1/mf.svg.svg.svg.svg.svg);
+}
+
+.fi-mg {
+  background-image: url(vendor/fonts/flags/4x3/mg.svg.svg.svg.svg.svg);
+}
+
+.fi-mg.fis {
+  background-image: url(vendor/fonts/flags/1x1/mg.svg.svg.svg.svg.svg);
+}
+
+.fi-mh {
+  background-image: url(vendor/fonts/flags/4x3/mh.svg.svg.svg.svg.svg);
+}
+
+.fi-mh.fis {
+  background-image: url(vendor/fonts/flags/1x1/mh.svg.svg.svg.svg.svg);
+}
+
+.fi-mk {
+  background-image: url(vendor/fonts/flags/4x3/mk.svg.svg.svg.svg.svg);
+}
+
+.fi-mk.fis {
+  background-image: url(vendor/fonts/flags/1x1/mk.svg.svg.svg.svg.svg);
+}
+
+.fi-ml {
+  background-image: url(vendor/fonts/flags/4x3/ml.svg.svg.svg.svg.svg);
+}
+
+.fi-ml.fis {
+  background-image: url(vendor/fonts/flags/1x1/ml.svg.svg.svg.svg.svg);
+}
+
+.fi-mm {
+  background-image: url(vendor/fonts/flags/4x3/mm.svg.svg.svg.svg.svg);
+}
+
+.fi-mm.fis {
+  background-image: url(vendor/fonts/flags/1x1/mm.svg.svg.svg.svg.svg);
+}
+
+.fi-mn {
+  background-image: url(vendor/fonts/flags/4x3/mn.svg.svg.svg.svg.svg);
+}
+
+.fi-mn.fis {
+  background-image: url(vendor/fonts/flags/1x1/mn.svg.svg.svg.svg.svg);
+}
+
+.fi-mo {
+  background-image: url(vendor/fonts/flags/4x3/mo.svg.svg.svg.svg.svg);
+}
+
+.fi-mo.fis {
+  background-image: url(vendor/fonts/flags/1x1/mo.svg.svg.svg.svg.svg);
+}
+
+.fi-mp {
+  background-image: url(vendor/fonts/flags/4x3/mp.svg.svg.svg.svg.svg);
+}
+
+.fi-mp.fis {
+  background-image: url(vendor/fonts/flags/1x1/mp.svg.svg.svg.svg.svg);
+}
+
+.fi-mq {
+  background-image: url(vendor/fonts/flags/4x3/mq.svg.svg.svg.svg.svg);
+}
+
+.fi-mq.fis {
+  background-image: url(vendor/fonts/flags/1x1/mq.svg.svg.svg.svg.svg);
+}
+
+.fi-mr {
+  background-image: url(vendor/fonts/flags/4x3/mr.svg.svg.svg.svg.svg);
+}
+
+.fi-mr.fis {
+  background-image: url(vendor/fonts/flags/1x1/mr.svg.svg.svg.svg.svg);
+}
+
+.fi-ms {
+  background-image: url(vendor/fonts/flags/4x3/ms.svg.svg.svg.svg.svg);
+}
+
+.fi-ms.fis {
+  background-image: url(vendor/fonts/flags/1x1/ms.svg.svg.svg.svg.svg);
+}
+
+.fi-mt {
+  background-image: url(vendor/fonts/flags/4x3/mt.svg.svg.svg.svg.svg);
+}
+
+.fi-mt.fis {
+  background-image: url(vendor/fonts/flags/1x1/mt.svg.svg.svg.svg.svg);
+}
+
+.fi-mu {
+  background-image: url(vendor/fonts/flags/4x3/mu.svg.svg.svg.svg.svg);
+}
+
+.fi-mu.fis {
+  background-image: url(vendor/fonts/flags/1x1/mu.svg.svg.svg.svg.svg);
+}
+
+.fi-mv {
+  background-image: url(vendor/fonts/flags/4x3/mv.svg.svg.svg.svg.svg);
+}
+
+.fi-mv.fis {
+  background-image: url(vendor/fonts/flags/1x1/mv.svg.svg.svg.svg.svg);
+}
+
+.fi-mw {
+  background-image: url(vendor/fonts/flags/4x3/mw.svg.svg.svg.svg.svg);
+}
+
+.fi-mw.fis {
+  background-image: url(vendor/fonts/flags/1x1/mw.svg.svg.svg.svg.svg);
+}
+
+.fi-mx {
+  background-image: url(vendor/fonts/flags/4x3/mx.svg.svg.svg.svg.svg);
+}
+
+.fi-mx.fis {
+  background-image: url(vendor/fonts/flags/1x1/mx.svg.svg.svg.svg.svg);
+}
+
+.fi-my {
+  background-image: url(vendor/fonts/flags/4x3/my.svg.svg.svg.svg.svg);
+}
+
+.fi-my.fis {
+  background-image: url(vendor/fonts/flags/1x1/my.svg.svg.svg.svg.svg);
+}
+
+.fi-mz {
+  background-image: url(vendor/fonts/flags/4x3/mz.svg.svg.svg.svg.svg);
+}
+
+.fi-mz.fis {
+  background-image: url(vendor/fonts/flags/1x1/mz.svg.svg.svg.svg.svg);
+}
+
+.fi-na {
+  background-image: url(vendor/fonts/flags/4x3/na.svg.svg.svg.svg.svg);
+}
+
+.fi-na.fis {
+  background-image: url(vendor/fonts/flags/1x1/na.svg.svg.svg.svg.svg);
+}
+
+.fi-nc {
+  background-image: url(vendor/fonts/flags/4x3/nc.svg.svg.svg.svg.svg);
+}
+
+.fi-nc.fis {
+  background-image: url(vendor/fonts/flags/1x1/nc.svg.svg.svg.svg.svg);
+}
+
+.fi-ne {
+  background-image: url(vendor/fonts/flags/4x3/ne.svg.svg.svg.svg.svg);
+}
+
+.fi-ne.fis {
+  background-image: url(vendor/fonts/flags/1x1/ne.svg.svg.svg.svg.svg);
+}
+
+.fi-nf {
+  background-image: url(vendor/fonts/flags/4x3/nf.svg.svg.svg.svg.svg);
+}
+
+.fi-nf.fis {
+  background-image: url(vendor/fonts/flags/1x1/nf.svg.svg.svg.svg.svg);
+}
+
+.fi-ng {
+  background-image: url(vendor/fonts/flags/4x3/ng.svg.svg.svg.svg.svg);
+}
+
+.fi-ng.fis {
+  background-image: url(vendor/fonts/flags/1x1/ng.svg.svg.svg.svg.svg);
+}
+
+.fi-ni {
+  background-image: url(vendor/fonts/flags/4x3/ni.svg.svg.svg.svg.svg);
+}
+
+.fi-ni.fis {
+  background-image: url(vendor/fonts/flags/1x1/ni.svg.svg.svg.svg.svg);
+}
+
+.fi-nl {
+  background-image: url(vendor/fonts/flags/4x3/nl.svg.svg.svg.svg.svg);
+}
+
+.fi-nl.fis {
+  background-image: url(vendor/fonts/flags/1x1/nl.svg.svg.svg.svg.svg);
+}
+
+.fi-no {
+  background-image: url(vendor/fonts/flags/4x3/no.svg.svg.svg.svg.svg);
+}
+
+.fi-no.fis {
+  background-image: url(vendor/fonts/flags/1x1/no.svg.svg.svg.svg.svg);
+}
+
+.fi-np {
+  background-image: url(vendor/fonts/flags/4x3/np.svg.svg.svg.svg.svg);
+}
+
+.fi-np.fis {
+  background-image: url(vendor/fonts/flags/1x1/np.svg.svg.svg.svg.svg);
+}
+
+.fi-nr {
+  background-image: url(vendor/fonts/flags/4x3/nr.svg.svg.svg.svg.svg);
+}
+
+.fi-nr.fis {
+  background-image: url(vendor/fonts/flags/1x1/nr.svg.svg.svg.svg.svg);
+}
+
+.fi-nu {
+  background-image: url(vendor/fonts/flags/4x3/nu.svg.svg.svg.svg.svg);
+}
+
+.fi-nu.fis {
+  background-image: url(vendor/fonts/flags/1x1/nu.svg.svg.svg.svg.svg);
+}
+
+.fi-nz {
+  background-image: url(vendor/fonts/flags/4x3/nz.svg.svg.svg.svg.svg);
+}
+
+.fi-nz.fis {
+  background-image: url(vendor/fonts/flags/1x1/nz.svg.svg.svg.svg.svg);
+}
+
+.fi-om {
+  background-image: url(vendor/fonts/flags/4x3/om.svg.svg.svg.svg.svg);
+}
+
+.fi-om.fis {
+  background-image: url(vendor/fonts/flags/1x1/om.svg.svg.svg.svg.svg);
+}
+
+.fi-pa {
+  background-image: url(vendor/fonts/flags/4x3/pa.svg.svg.svg.svg.svg);
+}
+
+.fi-pa.fis {
+  background-image: url(vendor/fonts/flags/1x1/pa.svg.svg.svg.svg.svg);
+}
+
+.fi-pe {
+  background-image: url(vendor/fonts/flags/4x3/pe.svg.svg.svg.svg.svg);
+}
+
+.fi-pe.fis {
+  background-image: url(vendor/fonts/flags/1x1/pe.svg.svg.svg.svg.svg);
+}
+
+.fi-pf {
+  background-image: url(vendor/fonts/flags/4x3/pf.svg.svg.svg.svg.svg);
+}
+
+.fi-pf.fis {
+  background-image: url(vendor/fonts/flags/1x1/pf.svg.svg.svg.svg.svg);
+}
+
+.fi-pg {
+  background-image: url(vendor/fonts/flags/4x3/pg.svg.svg.svg.svg.svg);
+}
+
+.fi-pg.fis {
+  background-image: url(vendor/fonts/flags/1x1/pg.svg.svg.svg.svg.svg);
+}
+
+.fi-ph {
+  background-image: url(vendor/fonts/flags/4x3/ph.svg.svg.svg.svg.svg);
+}
+
+.fi-ph.fis {
+  background-image: url(vendor/fonts/flags/1x1/ph.svg.svg.svg.svg.svg);
+}
+
+.fi-pk {
+  background-image: url(vendor/fonts/flags/4x3/pk.svg.svg.svg.svg.svg);
+}
+
+.fi-pk.fis {
+  background-image: url(vendor/fonts/flags/1x1/pk.svg.svg.svg.svg.svg);
+}
+
+.fi-pl {
+  background-image: url(vendor/fonts/flags/4x3/pl.svg.svg.svg.svg.svg);
+}
+
+.fi-pl.fis {
+  background-image: url(vendor/fonts/flags/1x1/pl.svg.svg.svg.svg.svg);
+}
+
+.fi-pm {
+  background-image: url(vendor/fonts/flags/4x3/pm.svg.svg.svg.svg.svg);
+}
+
+.fi-pm.fis {
+  background-image: url(vendor/fonts/flags/1x1/pm.svg.svg.svg.svg.svg);
+}
+
+.fi-pn {
+  background-image: url(vendor/fonts/flags/4x3/pn.svg.svg.svg.svg.svg);
+}
+
+.fi-pn.fis {
+  background-image: url(vendor/fonts/flags/1x1/pn.svg.svg.svg.svg.svg);
+}
+
+.fi-pr {
+  background-image: url(vendor/fonts/flags/4x3/pr.svg.svg.svg.svg.svg);
+}
+
+.fi-pr.fis {
+  background-image: url(vendor/fonts/flags/1x1/pr.svg.svg.svg.svg.svg);
+}
+
+.fi-ps {
+  background-image: url(vendor/fonts/flags/4x3/ps.svg.svg.svg.svg.svg);
+}
+
+.fi-ps.fis {
+  background-image: url(vendor/fonts/flags/1x1/ps.svg.svg.svg.svg.svg);
+}
+
+.fi-pt {
+  background-image: url(vendor/fonts/flags/4x3/pt.svg.svg.svg.svg.svg);
+}
+
+.fi-pt.fis {
+  background-image: url(vendor/fonts/flags/1x1/pt.svg.svg.svg.svg.svg);
+}
+
+.fi-pw {
+  background-image: url(vendor/fonts/flags/4x3/pw.svg.svg.svg.svg.svg);
+}
+
+.fi-pw.fis {
+  background-image: url(vendor/fonts/flags/1x1/pw.svg.svg.svg.svg.svg);
+}
+
+.fi-py {
+  background-image: url(vendor/fonts/flags/4x3/py.svg.svg.svg.svg.svg);
+}
+
+.fi-py.fis {
+  background-image: url(vendor/fonts/flags/1x1/py.svg.svg.svg.svg.svg);
+}
+
+.fi-qa {
+  background-image: url(vendor/fonts/flags/4x3/qa.svg.svg.svg.svg.svg);
+}
+
+.fi-qa.fis {
+  background-image: url(vendor/fonts/flags/1x1/qa.svg.svg.svg.svg.svg);
+}
+
+.fi-re {
+  background-image: url(vendor/fonts/flags/4x3/re.svg.svg.svg.svg.svg);
+}
+
+.fi-re.fis {
+  background-image: url(vendor/fonts/flags/1x1/re.svg.svg.svg.svg.svg);
+}
+
+.fi-ro {
+  background-image: url(vendor/fonts/flags/4x3/ro.svg.svg.svg.svg.svg);
+}
+
+.fi-ro.fis {
+  background-image: url(vendor/fonts/flags/1x1/ro.svg.svg.svg.svg.svg);
+}
+
+.fi-rs {
+  background-image: url(vendor/fonts/flags/4x3/rs.svg.svg.svg.svg.svg);
+}
+
+.fi-rs.fis {
+  background-image: url(vendor/fonts/flags/1x1/rs.svg.svg.svg.svg.svg);
+}
+
+.fi-ru {
+  background-image: url(vendor/fonts/flags/4x3/ru.svg.svg.svg.svg.svg);
+}
+
+.fi-ru.fis {
+  background-image: url(vendor/fonts/flags/1x1/ru.svg.svg.svg.svg.svg);
+}
+
+.fi-rw {
+  background-image: url(vendor/fonts/flags/4x3/rw.svg.svg.svg.svg.svg);
+}
+
+.fi-rw.fis {
+  background-image: url(vendor/fonts/flags/1x1/rw.svg.svg.svg.svg.svg);
+}
+
+.fi-sa {
+  background-image: url(vendor/fonts/flags/4x3/sa.svg.svg.svg.svg.svg);
+}
+
+.fi-sa.fis {
+  background-image: url(vendor/fonts/flags/1x1/sa.svg.svg.svg.svg.svg);
+}
+
+.fi-sb {
+  background-image: url(vendor/fonts/flags/4x3/sb.svg.svg.svg.svg.svg);
+}
+
+.fi-sb.fis {
+  background-image: url(vendor/fonts/flags/1x1/sb.svg.svg.svg.svg.svg);
+}
+
+.fi-sc {
+  background-image: url(vendor/fonts/flags/4x3/sc.svg.svg.svg.svg.svg);
+}
+
+.fi-sc.fis {
+  background-image: url(vendor/fonts/flags/1x1/sc.svg.svg.svg.svg.svg);
+}
+
+.fi-sd {
+  background-image: url(vendor/fonts/flags/4x3/sd.svg.svg.svg.svg.svg);
+}
+
+.fi-sd.fis {
+  background-image: url(vendor/fonts/flags/1x1/sd.svg.svg.svg.svg.svg);
+}
+
+.fi-se {
+  background-image: url(vendor/fonts/flags/4x3/se.svg.svg.svg.svg.svg);
+}
+
+.fi-se.fis {
+  background-image: url(vendor/fonts/flags/1x1/se.svg.svg.svg.svg.svg);
+}
+
+.fi-sg {
+  background-image: url(vendor/fonts/flags/4x3/sg.svg.svg.svg.svg.svg);
+}
+
+.fi-sg.fis {
+  background-image: url(vendor/fonts/flags/1x1/sg.svg.svg.svg.svg.svg);
+}
+
+.fi-sh {
+  background-image: url(vendor/fonts/flags/4x3/sh.svg.svg.svg.svg.svg);
+}
+
+.fi-sh.fis {
+  background-image: url(vendor/fonts/flags/1x1/sh.svg.svg.svg.svg.svg);
+}
+
+.fi-si {
+  background-image: url(vendor/fonts/flags/4x3/si.svg.svg.svg.svg.svg);
+}
+
+.fi-si.fis {
+  background-image: url(vendor/fonts/flags/1x1/si.svg.svg.svg.svg.svg);
+}
+
+.fi-sj {
+  background-image: url(vendor/fonts/flags/4x3/sj.svg.svg.svg.svg.svg);
+}
+
+.fi-sj.fis {
+  background-image: url(vendor/fonts/flags/1x1/sj.svg.svg.svg.svg.svg);
+}
+
+.fi-sk {
+  background-image: url(vendor/fonts/flags/4x3/sk.svg.svg.svg.svg.svg);
+}
+
+.fi-sk.fis {
+  background-image: url(vendor/fonts/flags/1x1/sk.svg.svg.svg.svg.svg);
+}
+
+.fi-sl {
+  background-image: url(vendor/fonts/flags/4x3/sl.svg.svg.svg.svg.svg);
+}
+
+.fi-sl.fis {
+  background-image: url(vendor/fonts/flags/1x1/sl.svg.svg.svg.svg.svg);
+}
+
+.fi-sm {
+  background-image: url(vendor/fonts/flags/4x3/sm.svg.svg.svg.svg.svg);
+}
+
+.fi-sm.fis {
+  background-image: url(vendor/fonts/flags/1x1/sm.svg.svg.svg.svg.svg);
+}
+
+.fi-sn {
+  background-image: url(vendor/fonts/flags/4x3/sn.svg.svg.svg.svg.svg);
+}
+
+.fi-sn.fis {
+  background-image: url(vendor/fonts/flags/1x1/sn.svg.svg.svg.svg.svg);
+}
+
+.fi-so {
+  background-image: url(vendor/fonts/flags/4x3/so.svg.svg.svg.svg.svg);
+}
+
+.fi-so.fis {
+  background-image: url(vendor/fonts/flags/1x1/so.svg.svg.svg.svg.svg);
+}
+
+.fi-sr {
+  background-image: url(vendor/fonts/flags/4x3/sr.svg.svg.svg.svg.svg);
+}
+
+.fi-sr.fis {
+  background-image: url(vendor/fonts/flags/1x1/sr.svg.svg.svg.svg.svg);
+}
+
+.fi-ss {
+  background-image: url(vendor/fonts/flags/4x3/ss.svg.svg.svg.svg.svg);
+}
+
+.fi-ss.fis {
+  background-image: url(vendor/fonts/flags/1x1/ss.svg.svg.svg.svg.svg);
+}
+
+.fi-st {
+  background-image: url(vendor/fonts/flags/4x3/st.svg.svg.svg.svg.svg);
+}
+
+.fi-st.fis {
+  background-image: url(vendor/fonts/flags/1x1/st.svg.svg.svg.svg.svg);
+}
+
+.fi-sv {
+  background-image: url(vendor/fonts/flags/4x3/sv.svg.svg.svg.svg.svg);
+}
+
+.fi-sv.fis {
+  background-image: url(vendor/fonts/flags/1x1/sv.svg.svg.svg.svg.svg);
+}
+
+.fi-sx {
+  background-image: url(vendor/fonts/flags/4x3/sx.svg.svg.svg.svg.svg);
+}
+
+.fi-sx.fis {
+  background-image: url(vendor/fonts/flags/1x1/sx.svg.svg.svg.svg.svg);
+}
+
+.fi-sy {
+  background-image: url(vendor/fonts/flags/4x3/sy.svg.svg.svg.svg.svg);
+}
+
+.fi-sy.fis {
+  background-image: url(vendor/fonts/flags/1x1/sy.svg.svg.svg.svg.svg);
+}
+
+.fi-sz {
+  background-image: url(vendor/fonts/flags/4x3/sz.svg.svg.svg.svg.svg);
+}
+
+.fi-sz.fis {
+  background-image: url(vendor/fonts/flags/1x1/sz.svg.svg.svg.svg.svg);
+}
+
+.fi-tc {
+  background-image: url(vendor/fonts/flags/4x3/tc.svg.svg.svg.svg.svg);
+}
+
+.fi-tc.fis {
+  background-image: url(vendor/fonts/flags/1x1/tc.svg.svg.svg.svg.svg);
+}
+
+.fi-td {
+  background-image: url(vendor/fonts/flags/4x3/td.svg.svg.svg.svg.svg);
+}
+
+.fi-td.fis {
+  background-image: url(vendor/fonts/flags/1x1/td.svg.svg.svg.svg.svg);
+}
+
+.fi-tf {
+  background-image: url(vendor/fonts/flags/4x3/tf.svg.svg.svg.svg.svg);
+}
+
+.fi-tf.fis {
+  background-image: url(vendor/fonts/flags/1x1/tf.svg.svg.svg.svg.svg);
+}
+
+.fi-tg {
+  background-image: url(vendor/fonts/flags/4x3/tg.svg.svg.svg.svg.svg);
+}
+
+.fi-tg.fis {
+  background-image: url(vendor/fonts/flags/1x1/tg.svg.svg.svg.svg.svg);
+}
+
+.fi-th {
+  background-image: url(vendor/fonts/flags/4x3/th.svg.svg.svg.svg.svg);
+}
+
+.fi-th.fis {
+  background-image: url(vendor/fonts/flags/1x1/th.svg.svg.svg.svg.svg);
+}
+
+.fi-tj {
+  background-image: url(vendor/fonts/flags/4x3/tj.svg.svg.svg.svg.svg);
+}
+
+.fi-tj.fis {
+  background-image: url(vendor/fonts/flags/1x1/tj.svg.svg.svg.svg.svg);
+}
+
+.fi-tk {
+  background-image: url(vendor/fonts/flags/4x3/tk.svg.svg.svg.svg.svg);
+}
+
+.fi-tk.fis {
+  background-image: url(vendor/fonts/flags/1x1/tk.svg.svg.svg.svg.svg);
+}
+
+.fi-tl {
+  background-image: url(vendor/fonts/flags/4x3/tl.svg.svg.svg.svg.svg);
+}
+
+.fi-tl.fis {
+  background-image: url(vendor/fonts/flags/1x1/tl.svg.svg.svg.svg.svg);
+}
+
+.fi-tm {
+  background-image: url(vendor/fonts/flags/4x3/tm.svg.svg.svg.svg.svg);
+}
+
+.fi-tm.fis {
+  background-image: url(vendor/fonts/flags/1x1/tm.svg.svg.svg.svg.svg);
+}
+
+.fi-tn {
+  background-image: url(vendor/fonts/flags/4x3/tn.svg.svg.svg.svg.svg);
+}
+
+.fi-tn.fis {
+  background-image: url(vendor/fonts/flags/1x1/tn.svg.svg.svg.svg.svg);
+}
+
+.fi-to {
+  background-image: url(vendor/fonts/flags/4x3/to.svg.svg.svg.svg.svg);
+}
+
+.fi-to.fis {
+  background-image: url(vendor/fonts/flags/1x1/to.svg.svg.svg.svg.svg);
+}
+
+.fi-tr {
+  background-image: url(vendor/fonts/flags/4x3/tr.svg.svg.svg.svg.svg);
+}
+
+.fi-tr.fis {
+  background-image: url(vendor/fonts/flags/1x1/tr.svg.svg.svg.svg.svg);
+}
+
+.fi-tt {
+  background-image: url(vendor/fonts/flags/4x3/tt.svg.svg.svg.svg.svg);
+}
+
+.fi-tt.fis {
+  background-image: url(vendor/fonts/flags/1x1/tt.svg.svg.svg.svg.svg);
+}
+
+.fi-tv {
+  background-image: url(vendor/fonts/flags/4x3/tv.svg.svg.svg.svg.svg);
+}
+
+.fi-tv.fis {
+  background-image: url(vendor/fonts/flags/1x1/tv.svg.svg.svg.svg.svg);
+}
+
+.fi-tw {
+  background-image: url(vendor/fonts/flags/4x3/tw.svg.svg.svg.svg.svg);
+}
+
+.fi-tw.fis {
+  background-image: url(vendor/fonts/flags/1x1/tw.svg.svg.svg.svg.svg);
+}
+
+.fi-tz {
+  background-image: url(vendor/fonts/flags/4x3/tz.svg.svg.svg.svg.svg);
+}
+
+.fi-tz.fis {
+  background-image: url(vendor/fonts/flags/1x1/tz.svg.svg.svg.svg.svg);
+}
+
+.fi-ua {
+  background-image: url(vendor/fonts/flags/4x3/ua.svg.svg.svg.svg.svg);
+}
+
+.fi-ua.fis {
+  background-image: url(vendor/fonts/flags/1x1/ua.svg.svg.svg.svg.svg);
+}
+
+.fi-ug {
+  background-image: url(vendor/fonts/flags/4x3/ug.svg.svg.svg.svg.svg);
+}
+
+.fi-ug.fis {
+  background-image: url(vendor/fonts/flags/1x1/ug.svg.svg.svg.svg.svg);
+}
+
+.fi-um {
+  background-image: url(vendor/fonts/flags/4x3/um.svg.svg.svg.svg.svg);
+}
+
+.fi-um.fis {
+  background-image: url(vendor/fonts/flags/1x1/um.svg.svg.svg.svg.svg);
+}
+
+.fi-us {
+  background-image: url(vendor/fonts/flags/4x3/us.svg.svg.svg.svg.svg);
+}
+
+.fi-us.fis {
+  background-image: url(vendor/fonts/flags/1x1/us.svg.svg.svg.svg.svg);
+}
+
+.fi-uy {
+  background-image: url(vendor/fonts/flags/4x3/uy.svg.svg.svg.svg.svg);
+}
+
+.fi-uy.fis {
+  background-image: url(vendor/fonts/flags/1x1/uy.svg.svg.svg.svg.svg);
+}
+
+.fi-uz {
+  background-image: url(vendor/fonts/flags/4x3/uz.svg.svg.svg.svg.svg);
+}
+
+.fi-uz.fis {
+  background-image: url(vendor/fonts/flags/1x1/uz.svg.svg.svg.svg.svg);
+}
+
+.fi-va {
+  background-image: url(vendor/fonts/flags/4x3/va.svg.svg.svg.svg.svg);
+}
+
+.fi-va.fis {
+  background-image: url(vendor/fonts/flags/1x1/va.svg.svg.svg.svg.svg);
+}
+
+.fi-vc {
+  background-image: url(vendor/fonts/flags/4x3/vc.svg.svg.svg.svg.svg);
+}
+
+.fi-vc.fis {
+  background-image: url(vendor/fonts/flags/1x1/vc.svg.svg.svg.svg.svg);
+}
+
+.fi-ve {
+  background-image: url(vendor/fonts/flags/4x3/ve.svg.svg.svg.svg.svg);
+}
+
+.fi-ve.fis {
+  background-image: url(vendor/fonts/flags/1x1/ve.svg.svg.svg.svg.svg);
+}
+
+.fi-vg {
+  background-image: url(vendor/fonts/flags/4x3/vg.svg.svg.svg.svg.svg);
+}
+
+.fi-vg.fis {
+  background-image: url(vendor/fonts/flags/1x1/vg.svg.svg.svg.svg.svg);
+}
+
+.fi-vi {
+  background-image: url(vendor/fonts/flags/4x3/vi.svg.svg.svg.svg.svg);
+}
+
+.fi-vi.fis {
+  background-image: url(vendor/fonts/flags/1x1/vi.svg.svg.svg.svg.svg);
+}
+
+.fi-vn {
+  background-image: url(vendor/fonts/flags/4x3/vn.svg.svg.svg.svg.svg);
+}
+
+.fi-vn.fis {
+  background-image: url(vendor/fonts/flags/1x1/vn.svg.svg.svg.svg.svg);
+}
+
+.fi-vu {
+  background-image: url(vendor/fonts/flags/4x3/vu.svg.svg.svg.svg.svg);
+}
+
+.fi-vu.fis {
+  background-image: url(vendor/fonts/flags/1x1/vu.svg.svg.svg.svg.svg);
+}
+
+.fi-wf {
+  background-image: url(vendor/fonts/flags/4x3/wf.svg.svg.svg.svg.svg);
+}
+
+.fi-wf.fis {
+  background-image: url(vendor/fonts/flags/1x1/wf.svg.svg.svg.svg.svg);
+}
+
+.fi-ws {
+  background-image: url(vendor/fonts/flags/4x3/ws.svg.svg.svg.svg.svg);
+}
+
+.fi-ws.fis {
+  background-image: url(vendor/fonts/flags/1x1/ws.svg.svg.svg.svg.svg);
+}
+
+.fi-ye {
+  background-image: url(vendor/fonts/flags/4x3/ye.svg.svg.svg.svg.svg);
+}
+
+.fi-ye.fis {
+  background-image: url(vendor/fonts/flags/1x1/ye.svg.svg.svg.svg.svg);
+}
+
+.fi-yt {
+  background-image: url(vendor/fonts/flags/4x3/yt.svg.svg.svg.svg.svg);
+}
+
+.fi-yt.fis {
+  background-image: url(vendor/fonts/flags/1x1/yt.svg.svg.svg.svg.svg);
+}
+
+.fi-za {
+  background-image: url(vendor/fonts/flags/4x3/za.svg.svg.svg.svg.svg);
+}
+
+.fi-za.fis {
+  background-image: url(vendor/fonts/flags/1x1/za.svg.svg.svg.svg.svg);
+}
+
+.fi-zm {
+  background-image: url(vendor/fonts/flags/4x3/zm.svg.svg.svg.svg.svg);
+}
+
+.fi-zm.fis {
+  background-image: url(vendor/fonts/flags/1x1/zm.svg.svg.svg.svg.svg);
+}
+
+.fi-zw {
+  background-image: url(vendor/fonts/flags/4x3/zw.svg.svg.svg.svg.svg);
+}
+
+.fi-zw.fis {
+  background-image: url(vendor/fonts/flags/1x1/zw.svg.svg.svg.svg.svg);
+}
+
+.fi-arab {
+  background-image: url(vendor/fonts/flags/4x3/arab.svg.svg.svg.svg.svg);
+}
+
+.fi-arab.fis {
+  background-image: url(vendor/fonts/flags/1x1/arab.svg.svg.svg.svg.svg);
+}
+
+.fi-cefta {
+  background-image: url(vendor/fonts/flags/4x3/cefta.svg.svg.svg.svg.svg);
+}
+
+.fi-cefta.fis {
+  background-image: url(vendor/fonts/flags/1x1/cefta.svg.svg.svg.svg.svg);
+}
+
+.fi-cp {
+  background-image: url(vendor/fonts/flags/4x3/cp.svg.svg.svg.svg.svg);
+}
+
+.fi-cp.fis {
+  background-image: url(vendor/fonts/flags/1x1/cp.svg.svg.svg.svg.svg);
+}
+
+.fi-dg {
+  background-image: url(vendor/fonts/flags/4x3/dg.svg.svg.svg.svg.svg);
+}
+
+.fi-dg.fis {
+  background-image: url(vendor/fonts/flags/1x1/dg.svg.svg.svg.svg.svg);
+}
+
+.fi-eac {
+  background-image: url(vendor/fonts/flags/4x3/eac.svg.svg.svg.svg.svg);
+}
+
+.fi-eac.fis {
+  background-image: url(vendor/fonts/flags/1x1/eac.svg.svg.svg.svg.svg);
+}
+
+.fi-es-ct {
+  background-image: url(vendor/fonts/flags/4x3/es-ct.svg.svg.svg.svg.svg);
+}
+
+.fi-es-ct.fis {
+  background-image: url(vendor/fonts/flags/1x1/es-ct.svg.svg.svg.svg.svg);
+}
+
+.fi-es-ga {
+  background-image: url(vendor/fonts/flags/4x3/es-ga.svg.svg.svg.svg.svg);
+}
+
+.fi-es-ga.fis {
+  background-image: url(vendor/fonts/flags/1x1/es-ga.svg.svg.svg.svg.svg);
+}
+
+.fi-es-pv {
+  background-image: url(vendor/fonts/flags/4x3/es-pv.svg.svg.svg.svg.svg);
+}
+
+.fi-es-pv.fis {
+  background-image: url(vendor/fonts/flags/1x1/es-pv.svg.svg.svg.svg.svg);
+}
+
+.fi-eu {
+  background-image: url(vendor/fonts/flags/4x3/eu.svg.svg.svg.svg.svg);
+}
+
+.fi-eu.fis {
+  background-image: url(vendor/fonts/flags/1x1/eu.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-eng {
+  background-image: url(vendor/fonts/flags/4x3/gb-eng.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-eng.fis {
+  background-image: url(vendor/fonts/flags/1x1/gb-eng.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-nir {
+  background-image: url(vendor/fonts/flags/4x3/gb-nir.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-nir.fis {
+  background-image: url(vendor/fonts/flags/1x1/gb-nir.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-sct {
+  background-image: url(vendor/fonts/flags/4x3/gb-sct.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-sct.fis {
+  background-image: url(vendor/fonts/flags/1x1/gb-sct.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-wls {
+  background-image: url(vendor/fonts/flags/4x3/gb-wls.svg.svg.svg.svg.svg);
+}
+
+.fi-gb-wls.fis {
+  background-image: url(vendor/fonts/flags/1x1/gb-wls.svg.svg.svg.svg.svg);
+}
+
+.fi-ic {
+  background-image: url(vendor/fonts/flags/4x3/ic.svg.svg.svg.svg.svg);
+}
+
+.fi-ic.fis {
+  background-image: url(vendor/fonts/flags/1x1/ic.svg.svg.svg.svg.svg);
+}
+
+.fi-pc {
+  background-image: url(vendor/fonts/flags/4x3/pc.svg.svg.svg.svg.svg);
+}
+
+.fi-pc.fis {
+  background-image: url(vendor/fonts/flags/1x1/pc.svg.svg.svg.svg.svg);
+}
+
+.fi-sh-ac {
+  background-image: url(vendor/fonts/flags/4x3/sh-ac.svg.svg.svg.svg.svg);
+}
+
+.fi-sh-ac.fis {
+  background-image: url(vendor/fonts/flags/1x1/sh-ac.svg.svg.svg.svg.svg);
+}
+
+.fi-sh-hl {
+  background-image: url(vendor/fonts/flags/4x3/sh-hl.svg.svg.svg.svg.svg);
+}
+
+.fi-sh-hl.fis {
+  background-image: url(vendor/fonts/flags/1x1/sh-hl.svg.svg.svg.svg.svg);
+}
+
+.fi-sh-ta {
+  background-image: url(vendor/fonts/flags/4x3/sh-ta.svg.svg.svg.svg.svg);
+}
+
+.fi-sh-ta.fis {
+  background-image: url(vendor/fonts/flags/1x1/sh-ta.svg.svg.svg.svg.svg);
+}
+
+.fi-un {
+  background-image: url(vendor/fonts/flags/4x3/un.svg.svg.svg.svg.svg);
+}
+
+.fi-un.fis {
+  background-image: url(vendor/fonts/flags/1x1/un.svg.svg.svg.svg.svg);
+}
+
+.fi-xk {
+  background-image: url(vendor/fonts/flags/4x3/xk.svg.svg.svg.svg.svg);
+}
+
+.fi-xk.fis {
+  background-image: url(vendor/fonts/flags/1x1/xk.svg.svg.svg.svg.svg);
+}
+
+.fi {
+  vertical-align: middle;
+}
+

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard | Pinmed</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;ampdisplay=swap">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/fonts/remixicon/remixicon.css">
+    <link rel="stylesheet" href="assets/css/vendor/fonts/flag-icons.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/node-waves/node-waves.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/rtl/core.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/rtl/theme-default.css">
+    <link rel="stylesheet" href="assets/css/css/demo.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/typeahead-js/typeahead.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/@form-validation/form-validation.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/pages/page-auth.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/rtl/core-1.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/rtl/core-2.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/pages/front-page.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/nouislider/nouislider.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/swiper/swiper.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/pages/front-page-landing.css">
+    <link rel="stylesheet" href="assets/css/vendor/fonts/flag-icons-1.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/rtl/core-3.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/apex-charts/apex-charts.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/datatables-bs5/datatables.bootstrap5.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/pages/app-logistics-dashboard.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/rtl/core-4.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/select2/select2.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/plyr/plyr.css">
+    <link rel="stylesheet" href="assets/css/vendor/css/pages/app-academy.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/bs-stepper/bs-stepper.css">
+    <link rel="stylesheet" href="assets/css/vendor/libs/bootstrap-select/bootstrap-select.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar align-items-start sidebar sidebar-dark accordion p-0 navbar-dark" style="background: #2d2d68;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="index.html">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink" style="height: 42px;width: 42px;font-size: 42px;color: #fcc107;transform: rotate(-17deg);"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span style="font-family: Inter, sans-serif;font-size: 20px;font-weight: bold;">PINMED</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Дашборд</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="users.html"><i class="fa fa-users"></i><span>Пользователи</span></a><a class="nav-link" href="clinics.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none" style="width: 18px;height: 18px;">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 2.89543 4.89543 2 6 2H14C15.1046 2 16 2.89543 16 4V16C16.5523 16 17 16.4477 17 17C17 17.5523 16.5523 18 16 18H13C12.4477 18 12 17.5523 12 17V15C12 14.4477 11.5523 14 11 14H9C8.44772 14 8 14.4477 8 15V17C8 17.5523 7.55228 18 7 18H4C3.44772 18 3 17.5523 3 17C3 16.4477 3.44772 16 4 16V4ZM7 5H9V7H7V5ZM9 9H7V11H9V9ZM11 5H13V7H11V5ZM13 9H11V11H13V9Z" fill="currentColor"></path>
+                            </svg><span>Клиники</span></a><a class="nav-link" href="doctors.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-users" style="width: 18px;height: 18px;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                            </svg><span>Врачи</span></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button" style="height: 44px;"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-expand bg-white shadow mb-4 topbar">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button" style="width: 44px;height: 44px;"><i class="fas fa-bars"></i></button>
+                        <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Поиск медицинских услуг" style="height: 33.0625px;"><button class="btn btn-primary py-0" type="button" style="background: #ffffff;"><i class="fas fa-search"></i></button></div>
+                        </form>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                    <form class="me-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light border-0 form-control small" type="text" placeholder="Search for ..."><button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button></div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter" style="font-size: 16px;">3+</span><i class="fas fa-bell fa-fw" style="color: rgb(103,107,123);width: 52.2812px;font-size: 23px;"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                                <p>A new monthly report is ready to download!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                                <p>$290.29 has been deposited into your account!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                                <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">Пользователь</span><img class="border rounded-circle img-profile" src="assets/img/avatars/user.png"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Activity log</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">Дашборд</h3><button class="btn btn-primary btn-submit" style="background: #2b44fb;color: rgb(255,255,255);">Отчет</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card card-border-shadow-primary h-100">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="avatar me-4"><span class="avatar-initial rounded-3 bg-label-primary"><i class="ri-alert-line ri-24px"></i></span></div>
+                                        <h4 class="mb-0">42</h4>
+                                    </div>
+                                    <h6 class="fw-normal mb-0">Показатель 1</h6>
+                                    <p class="mb-0"><span class="me-1 fw-medium">+18.3%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card card-border-shadow-warning h-100">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="avatar me-4"><span class="avatar-initial rounded-3 bg-label-warning"><i class="ri-alert-line ri-24px"></i></span></div>
+                                        <h4 class="mb-0">8</h4>
+                                    </div>
+                                    <h6 class="fw-normal mb-0">Показатель 2</h6>
+                                    <p class="mb-0"><span class="me-1 fw-medium">-6.7%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card card-border-shadow-danger h-100">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="avatar me-4"><span class="avatar-initial rounded-3 bg-label-danger"><i class="ri-alert-line ri-24px"></i></span></div>
+                                        <h4 class="mb-0">27</h4>
+                                    </div>
+                                    <h6 class="fw-normal mb-0">Показатель 3</h6>
+                                    <p class="mb-0"><span class="me-1 fw-medium">+4.3%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="card card-border-shadow-info h-100">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <div class="avatar me-4"><span class="avatar-initial rounded-3 bg-label-info"><i class="ri-alert-line ri-24px"></i></span></div>
+                                        <h4 class="mb-0">13</h4>
+                                    </div>
+                                    <h6 class="fw-normal mb-0">Показатель 4</h6>
+                                    <p class="mb-0"><span class="me-1 fw-medium">-2.2%</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-sm-flex justify-content-between align-items-center mb-4"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xxl-4 order-1 order-xxl-3">
+                            <div class="card h-100">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <div class="card-title mb-0">
+                                        <h5 class="m-0 me-2">Отчет 1</h5>
+                                    </div>
+                                    <div class="dropdown"><button class="btn border-0 btn-text-secondary rounded-pill text-muted p-1" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true" id="deliveryExceptionsReasons-1" type="button"><i class="ri-more-2-line ri-20px"></i></button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="deliveryExceptionsReasons"><a class="dropdown-item">Select All</a><a class="dropdown-item">Refresh</a><a class="dropdown-item">Share</a></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div id="deliveryExceptionsChart-1"></div>
+                                    <div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Direct&quot;,&quot;Social&quot;,&quot;Referral&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;&quot;,&quot;backgroundColor&quot;:[&quot;#4e73df&quot;,&quot;#1cc88a&quot;,&quot;#36b9cc&quot;],&quot;borderColor&quot;:[&quot;#ffffff&quot;,&quot;#ffffff&quot;,&quot;#ffffff&quot;],&quot;data&quot;:[&quot;50&quot;,&quot;30&quot;,&quot;15&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}}"></canvas></div>
+                                    <div class="text-center small mt-4"><span class="me-2"><i class="fas fa-circle text-primary"></i>&nbsp;Direct</span><span class="me-2"><i class="fas fa-circle text-success"></i>&nbsp;Social</span><span class="me-2"><i class="fas fa-circle text-info"></i>&nbsp;Refferal</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 order-1 order-xxl-3">
+                            <div class="card h-100">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <div class="card-title mb-0">
+                                        <h5 class="m-0 me-2">Отчет 2</h5>
+                                    </div>
+                                    <div class="dropdown"><button class="btn border-0 btn-text-secondary rounded-pill text-muted p-1" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true" id="deliveryExceptionsReasons-2" type="button"><i class="ri-more-2-line ri-20px"></i></button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="deliveryExceptionsReasons"><a class="dropdown-item">Select All</a><a class="dropdown-item">Refresh</a><a class="dropdown-item">Share</a></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div id="deliveryExceptionsChart-2"></div>
+                                    <div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Direct&quot;,&quot;Social&quot;,&quot;Referral&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;&quot;,&quot;backgroundColor&quot;:[&quot;#4e73df&quot;,&quot;#1cc88a&quot;,&quot;#36b9cc&quot;],&quot;borderColor&quot;:[&quot;#ffffff&quot;,&quot;#ffffff&quot;,&quot;#ffffff&quot;],&quot;data&quot;:[&quot;50&quot;,&quot;30&quot;,&quot;15&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}}"></canvas></div>
+                                    <div class="text-center small mt-4"><span class="me-2"><i class="fas fa-circle text-primary"></i>&nbsp;Direct</span><span class="me-2"><i class="fas fa-circle text-success"></i>&nbsp;Social</span><span class="me-2"><i class="fas fa-circle text-info"></i>&nbsp;Refferal</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xxl-4 order-1 order-xxl-3">
+                            <div class="card h-100">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <div class="card-title mb-0">
+                                        <h5 class="m-0 me-2">Отчет 3</h5>
+                                    </div>
+                                    <div class="dropdown"><button class="btn border-0 btn-text-secondary rounded-pill text-muted p-1" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true" id="deliveryExceptionsReasons" type="button"><i class="ri-more-2-line ri-20px"></i></button>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="deliveryExceptionsReasons"><a class="dropdown-item">Select All</a><a class="dropdown-item">Refresh</a><a class="dropdown-item">Share</a></div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <div id="deliveryExceptionsChart"></div>
+                                    <div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Direct&quot;,&quot;Social&quot;,&quot;Referral&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;&quot;,&quot;backgroundColor&quot;:[&quot;#4e73df&quot;,&quot;#1cc88a&quot;,&quot;#36b9cc&quot;],&quot;borderColor&quot;:[&quot;#ffffff&quot;,&quot;#ffffff&quot;,&quot;#ffffff&quot;],&quot;data&quot;:[&quot;50&quot;,&quot;30&quot;,&quot;15&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}}}"></canvas></div>
+                                    <div class="text-center small mt-4"><span class="me-2"><i class="fas fa-circle text-primary"></i>&nbsp;Direct</span><span class="me-2"><i class="fas fa-circle text-success"></i>&nbsp;Social</span><span class="me-2"><i class="fas fa-circle text-info"></i>&nbsp;Refferal</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer">
+                <div class="container-xxl">
+                    <div class="d-flex flex-column justify-content-between align-items-center flex-md-row footer-container py-4">
+                        <div class="text-body mb-2 mb-md-0"><span> © </span><script>
+                      document.write(new Date().getFullYear());
+                    </script><a class="footer-link" href="https://pinmed.ru" target="_blank">&nbsp;Pinmed</a></div>
+                        <div class="d-none d-lg-inline-block"><a class="d-none d-sm-inline-block footer-link" href="landing-page.html">Выйти</a></div>
+                    </div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/js/vendor/libs/popper/popper.js"></script>
+    <script src="assets/js/vendor/js/bootstrap.js"></script>
+    <script src="assets/js/vendor/libs/node-waves/node-waves.js"></script>
+    <script src="assets/js/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets/js/vendor/libs/hammer/hammer.js"></script>
+    <script src="assets/js/vendor/libs/i18n/i18n.js"></script>
+    <script src="assets/js/vendor/libs/typeahead-js/typeahead.js"></script>
+    <script src="assets/js/vendor/js/menu.js"></script>
+    <script src="assets/js/vendor/libs/@form-validation/popular.js"></script>
+    <script src="assets/js/vendor/libs/@form-validation/bootstrap5.js"></script>
+    <script src="assets/js/vendor/libs/@form-validation/auto-focus.js"></script>
+    <script src="assets/js/js/main.js"></script>
+    <script src="assets/js/js/pages-auth.js"></script>
+    <script src="assets/js/vendor/js/dropdown-hover.js"></script>
+    <script src="assets/js/vendor/js/mega-dropdown.js"></script>
+    <script src="assets/js/vendor/libs/nouislider/nouislider.js"></script>
+    <script src="assets/js/vendor/libs/swiper/swiper.js"></script>
+    <script src="assets/js/js/front-main.js"></script>
+    <script src="assets/js/js/front-page-landing.js"></script>
+    <script src="assets/js/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="assets/js/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+    <script src="assets/js/js/app-logistics-dashboard.js"></script>
+    <script src="assets/js/js/app-ecommerce-settings.js"></script>
+    <script src="assets/js/vendor/libs/select2/select2.js"></script>
+    <script src="assets/js/vendor/libs/cleavejs/cleave.js"></script>
+    <script src="assets/js/vendor/libs/cleavejs/cleave-phone.js"></script>
+    <script src="assets/js/vendor/libs/plyr/plyr.js"></script>
+    <script src="assets/js/js/app-academy-course.js"></script>
+    <script src="assets/js/vendor/libs/bs-stepper/bs-stepper.js"></script>
+    <script src="assets/js/vendor/libs/bootstrap-select/bootstrap-select.js"></script>
+    <script src="assets/js/js/form-wizard-numbered.js"></script>
+    <script src="assets/js/js/form-wizard-validation.js"></script>
+</body>
+
+</html>
